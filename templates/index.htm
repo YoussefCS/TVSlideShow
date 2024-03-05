@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshow</title>
+    <link rel="stylesheet" href="{{ url_for('send_css', filename='styles.css') }}">
+    <!-- Load XLSX library script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
+</head>
+<body>
+
+<div class="slideshow-container">
+    <!-- No need to populate slides here, as JavaScript will do it dynamically -->
+</div>
+
+<script src="{{ url_for('send_js', filename='script.js') }}"></script>
+
+</body>
+</html>

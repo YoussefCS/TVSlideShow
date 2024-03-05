@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Styles for the slideshow container */
+.slideshow-container {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Hide any overflow */
+    display: flex; /* Use flexbox to center the images */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: black;
+}
+
+/* Styles for the images */
+.mySlides img {
+    width: 100vw; /* Limit maximum width to prevent overflow */
+    height: 100vh; /* Limit maximum height to prevent overflow */
+    object-fit: contain; /* Fit the image within its container */
+}
+
+.videoSlide {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .videoSlide video {
+    width: 100%; /* Ensure the video fills the container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+img {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    object-fit: contain; /* Fit the image within its container */
+    vertical-align: middle; /* Center image vertically within its container */
+}
+
+.container {
+    width: 100%;
+    text-align: center; /* Center the content horizontally */
+    display: block; /* Ensure the container is a block element */
+    margin-bottom: 20px; /* Add some spacing between the title and the table */
+}
+.title {
+    color: white;
+    text-align: center;
+}
+
+
+.table-container {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Hide any overflow */
+    display: flex; /* Use flexbox to center the table */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+table {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    overflow: hidden; /* Hide any overflow */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
